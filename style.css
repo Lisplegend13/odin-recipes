@@ -60,3 +60,87 @@ img {
 .Collection {
     background-color: yellow;
 }
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+.border {
+    position: relative;
+    height: 342px;
+    width: 260px;
+    background: transparent;
+    border-radius: 15px;
+    border: 2px solid red;
+    opacity: 0;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border:hover {
+    opacity: 1;
+}
+.card {
+    height: 379px;
+    width: 300px;
+    background: #afd81a;
+    font-size: 32px;
+    margin: 30px;
+    border-radius: 20px;
+    transition: 0.8s;
+    overflow: hidden;
+    background: #05910c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card a {
+    color: #05910c;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card0 {
+    background: url(./html-assets/oxtail.jpg) center center no-repeat;
+    background-size: 300px;
+}
+
+.card0:hover {
+    background: url(./html-assets/oxtail.jpg) left center no-repeat;
+    background-size: 600px;
+}
+
+
+.card1 {
+    background: url(./recipes/html-assets/Curry.jpg) center center no-repeat;
+    background-size: 300px;
+}
+
+.card1:hover {
+    background: url(./recipes/html-assets/Curry.jpg) center center no-repeat;
+    background-size: 600px;
+}
+
+
+.card2 {
+    background: url(./recipes/html-assets/Jerk.jpeg) center center no-repeat;
+    background-size: 600px;
+}
+
+.card2:hover:hover {
+    background: url(./recipes/html-assets/Jerk.jpeg) right center no-repeat;
+    background-size: 900px;
+}

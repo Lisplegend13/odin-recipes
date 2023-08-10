@@ -144,3 +144,8 @@ img {
     background: url(./recipes/html-assets/Jerk.jpeg) right center no-repeat;
     background-size: 900px;
 }
+
+.Ox-pic {
+    max-height: 100%;
+    max-width: 100vh;
+}
